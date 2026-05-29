@@ -1,0 +1,13 @@
+# Leaftide Tea Co. — Knowledge Answering System
+# Install with: pip install -r requirements.txt
+
+# LLM API
+openai>=1.99.0
+
+# Local embeddings (downloads ~90 MB model on first run, then fully offline)
+sentence-transformers>=2.7.0
+
+# sentence-transformers pulls these in, listed explicitly for clarity
+torch>=2.0.0
+transformers>=4.38.0
+numpy>=1.24.0
